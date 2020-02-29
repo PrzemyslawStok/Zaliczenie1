@@ -5,12 +5,14 @@ public class Worker {
     String surname;
 
     Integer age;
+    Integer weight;
 
     Worker(String name, String surname){
         this.name = name;
         this.surname = surname;
 
         age = 25;
+        weight = 400;
 
     }
 
