@@ -7,7 +7,7 @@ public class Worker {
     Integer age;
     Integer weight;
 
-    Worker(String name, String surname, Ingeger age, Integer weight){
+    Worker(String name, String surname, Integer age, Integer weight){
         this.name = name;
         this.surname = surname;
 
