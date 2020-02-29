@@ -7,12 +7,12 @@ public class Worker {
     Integer age;
     Integer weight;
 
-    Worker(String name, String surname){
+    Worker(String name, String surname, Ingeger age, Integer weight){
         this.name = name;
         this.surname = surname;
 
-        age = 25;
-        weight = 400;
+        this.age = age;
+        this.weight = weight;
 
     }
 
