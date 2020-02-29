@@ -4,9 +4,14 @@ public class Worker {
     String name;
     String surname;
 
+    Integer age;
+
     Worker(String name, String surname){
         this.name = name;
         this.surname = surname;
+
+        age = 25;
+
     }
 
     public void setName(String name) {
