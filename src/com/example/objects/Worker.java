@@ -4,8 +4,9 @@ public class Worker {
     String name;
     String surname;
 
-    Worker(){
-
+    Worker(String name, String surname){
+        this.name = name;
+        this.surname = surname;
     }
 
     public void setName(String name) {
