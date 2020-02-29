@@ -4,6 +4,10 @@ public class Worker {
     String name;
     String surname;
 
+    Worker(){
+
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -19,4 +23,6 @@ public class Worker {
     public String getSurname() {
         return surname;
     }
+
+
 }
